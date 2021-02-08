@@ -10322,10 +10322,9 @@ body {
   border: 0;
 }
 
-/* .contact-section {
-  height: 500px;
+.contact-section {
   padding-top: 10rem;
-} */
+}
 .contact-section .card {
   background-color: #fbd600;
 }
