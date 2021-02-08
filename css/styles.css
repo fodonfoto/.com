@@ -568,6 +568,10 @@ pre code {
   .container-md, .container-sm, .container {
     max-width: 720px;
   }
+  .contact-section {
+    height: auto;
+    background-color: #000000;
+  }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
@@ -10318,9 +10322,10 @@ body {
   border: 0;
 }
 
-.contact-section {
-  padding-top: 5rem;
-}
+/* .contact-section {
+  height: 500px;
+  padding-top: 10rem;
+} */
 .contact-section .card {
   background-color: #fbd600;
 }
