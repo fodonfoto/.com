@@ -10268,6 +10268,27 @@ body {
   }
 }
 
+/* About Skills ////////////////*/
+.progress-bar {
+  background-color: #FBD600;
+}
+
+.fa-figma, .fa-html5, .fa-css3-alt, .fa-js, .cib-adobe-xd, .fa-sketch, .fa-bootstrap {
+  font-size: 3.5rem;
+}
+
+.fab-affinity img, .fab-xd img, .fab-photoshop img, .fab-ai img, .fab-id img, .fab-lr img, .fab-pr img, .fab-ae img, .fab-sketchup img, .fab-miro img  {
+  background: #fff;
+}
+
+.fab-ai img, .fab-id img, .fab-miro img {
+  border: solid 5px #fff;
+}
+
+.fa-bootstrap {
+  color: #fff;
+}
+
 .about-section {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
