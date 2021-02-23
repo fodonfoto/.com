@@ -10279,7 +10279,11 @@ body, html {
   height: 300px;
   width: 100%
 } */
-
+.skill-zone {
+  border: 1px solid #fbd600;
+  border-radius: 8px;
+  padding: 1rem;
+}
 section {
   background-color: #000000;
 }
@@ -10303,7 +10307,6 @@ section {
 .fa-bootstrap {
   color: #fff;
 }
-
 .about-section {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
@@ -10358,6 +10361,23 @@ section {
   border: 0;
 }
 
+.port-section {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.text-illus {
+  padding: 0;
+  height: 0;
+  background-color: #fff;
+  z-index: 25;
+}
+.card-body {
+  height: auto;
+  padding: 0;
+}
+.btn-primary {
+  color: #000;
+}
 .contact-section {
   padding-top: 10rem;
 }
@@ -10393,6 +10413,10 @@ section {
 }
 .contact-section .social a:active {
   color: #fff;
+}
+.port-section>.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+  color: #000;
+  background-color: #fff;
 }
 .footer {
   padding: 5rem 0;
