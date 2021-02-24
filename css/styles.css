@@ -10316,7 +10316,7 @@ section {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding-top 10rem;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -10363,7 +10363,7 @@ section {
 
 .port-section {
   padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-bottom: 2rem;
 }
 .text-illus {
   padding: 0;
