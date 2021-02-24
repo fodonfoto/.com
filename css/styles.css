@@ -10418,6 +10418,15 @@ section {
   color: #000;
   background-color: #fff;
 }
+.ux-ui {
+  background-color: #fbd600;
+  color: #000;
+  border-radius: 10px;
+}
+.link-port {
+  font-size: 8px;
+  color: #fff;
+}
 .footer {
   padding: 5rem 0;
 }
