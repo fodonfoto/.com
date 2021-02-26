@@ -10418,7 +10418,7 @@ section {
   color: #000;
   background-color: #fff;
 }
-.ux-ui, .illustration, .photo, .render, .graphic {
+.ux-ui, .illustration, .photo, .render, .graphic, .motion {
   background-color: #fbd600;
   color: #000;
   border-radius: 10px;
@@ -10441,6 +10441,18 @@ section {
   font-size: 0.75rem;
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-top: 1rem;
+}
+.head-content-serazu {
+  font-size: 0.75rem;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-top: 1rem;
+}
+.head-content-vdo {
+  font-size: 0.75rem;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.head-content-chula3 {
+  font-size: 1.5rem;
 }
 .footer {
   padding: 5rem 0;
