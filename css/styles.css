@@ -2470,25 +2470,38 @@ fieldset:disabled a.btn {
   color: #343A40;
   background-color: #FBD600;
   border-color: #FBD600;
-  animation: yourAnimation6 1s forwards .7s ease;
+  animation: yourAnimation6 7s forwards 0s ease;
 }
 @keyframes yourAnimation6{
   0%{
       transform: rotate(2deg) skewX(0) skewY(0);
       }
+  15%{
+      transform: rotate(-180deg) skewX(0) skewY(0);
+      }
   25%{
+      transform: rotate(180deg) skewX(0) skewY(0);
+      }
+  35%{
       transform: rotate(-2deg) skewX(0) skewY(0);
       }
   50%{
       transform: rotate(2deg) skewX(0) skewY(0);
       }
+  65%{
+      transform: rotate(-2deg) skewX(0) skewY(0);
+      }
   75%{
+      transform: rotate(2deg) skewX(0) skewY(0);
+      }
+  85%{
       transform: rotate(-2deg) skewX(0) skewY(0);
       }
   100%{
       transform: rotate(0) skewX(0) skewY(0);
       }
 }
+
 .btn-primary:hover {
   color: #343A40;
   background-color: #fff;
