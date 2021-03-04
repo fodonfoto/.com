@@ -2470,6 +2470,24 @@ fieldset:disabled a.btn {
   color: #343A40;
   background-color: #FBD600;
   border-color: #FBD600;
+  animation: yourAnimation6 1s forwards .7s ease;
+}
+@keyframes yourAnimation6{
+  0%{
+      transform: rotate(2deg) skewX(0) skewY(0);
+      }
+  25%{
+      transform: rotate(-2deg) skewX(0) skewY(0);
+      }
+  50%{
+      transform: rotate(2deg) skewX(0) skewY(0);
+      }
+  75%{
+      transform: rotate(-2deg) skewX(0) skewY(0);
+      }
+  100%{
+      transform: rotate(0) skewX(0) skewY(0);
+      }
 }
 .btn-primary:hover {
   color: #343A40;
@@ -4114,6 +4132,18 @@ input[type=button].btn-block {
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%;
+}
+.nav-logo {
+  animation: yourAnimation4 3s infinite 0s ease;
+}
+@keyframes yourAnimation4{
+  0%{
+      opacity: 0;
+      }
+  100%{
+      transform: rotate(xx);
+      opacity: 1;
+      }
 }
 
 @media (max-width: 575.98px) {
@@ -10238,18 +10268,18 @@ body, html {
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  animation: yourAnimation 7s forwards 0s ease;
+  animation: yourAnimation2 7s forwards 0s ease;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
 }
-@keyframes yourAnimation{
+@keyframes yourAnimation2{
   0%{
       transform: scale(0) translateY(-50px);
       opacity: 0;
       }
   50%{
-      transform: scale(1) translateY(-50px);
+      transform: scale(0.5) translateY(-50px);
       opacity: 0.5;
       }
   80%{
@@ -10260,9 +10290,9 @@ body, html {
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
-  animation: yourAnimation 3s forwards 0s ease;
+  animation: yourAnimation3 3s forwards 0s ease;
 }
-@keyframes yourAnimation{
+@keyframes yourAnimation3{
   0%{
       transform: scale(0) translateY(0);
       opacity: 0;
@@ -10452,9 +10482,9 @@ section {
   background-color: #fbd600;
   color: #000;
   border-radius: 10px;
-  animation: yourAnimation 3s forwards 0s ease;
+  animation: yourAnimation5 3s forwards 0s ease;
 }
-@keyframes yourAnimation{
+@keyframes yourAnimation5{
   0%{
       transform: translateY(-100px);
       opacity: 0;
