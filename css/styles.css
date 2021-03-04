@@ -2470,6 +2470,8 @@ fieldset:disabled a.btn {
   color: #343A40;
   background-color: #FBD600;
   border-color: #FBD600;
+}
+.get-started {
   animation: yourAnimation6 7s forwards 0s ease;
 }
 @keyframes yourAnimation6{
