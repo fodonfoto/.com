@@ -10542,6 +10542,39 @@ section {
 .layout-photo {
   background-color: #28292a;
 }
+
+.section-concept {
+  background-color: #1F1F1F;
+  margin-bottom: -1rem;
+}
+
+.title-concept {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-family: Roboto;
+  font-size: 30px;
+}
+.description-concept {
+  font-family: sarabun;
+  font-size: 15px;
+  line-height: 40px;
+}
+.title-feature {
+  padding-top: 1rem;
+  font-family: Roboto;
+  font-size: 30px;
+  text-align: center;
+}
+.feature1 {
+  padding-left: 3rem;
+  padding-right: 1rem;
+  font-family: sarabun;
+  font-size: 15px;
+  line-height: 30px;
+}
+.g-0 {
+  gap: 0px 0px;
+}
 .footer {
   padding: 5rem 0;
 }
