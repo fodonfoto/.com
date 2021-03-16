@@ -44,6 +44,9 @@
 
     </head>
     <body id="portfolio">
+        <div id="loading">
+            <img id="loading-image" src="assets/img/Preloader.gif" alt="Loading..." />
+        </div>
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8HSQ2H"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -251,5 +254,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script>
+            window.onload = function(){ document.getElementById("loading").style.display = "none" }
+        </script>
     </body>
 </html>
