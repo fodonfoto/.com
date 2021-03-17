@@ -553,6 +553,20 @@ pre code {
   margin-left: auto;
 }
 
+@media (min-width: 360px) {
+  .background-skill {
+    width: 100%;
+    height: 20px;
+  }
+}
+
+@media (min-width: 480px) {
+  .background-skill {
+    width: 100%;
+    height: 30px;
+  }
+}
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
@@ -562,7 +576,12 @@ pre code {
     width: 1rem;
     height: 1rem;
     margin: 1rem;
-  } 
+  }
+
+  .background-skill {
+    width: 100%;
+    height: 30px;
+  }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
@@ -572,15 +591,30 @@ pre code {
     height: auto;
     background-color: #000000;
   }
+
+  .background-skill {
+    width: 100%;
+    height: 40px;
+  }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
+
+  .background-skill {
+    width: 100%;
+    height: 60px;
+  }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
+  }
+
+  .background-skill {
+    width: 100%;
+    height: 60px;
   }
 }
 .row {
@@ -10594,10 +10628,16 @@ section {
   z-index: 100; */
 /* } */
 
+/* ///// UXUI SECTION//// */
+.img-furniture1-app {
+  filter: grayscale(100%);
+}
+.img-furniture1-app:hover {
+  filter: grayscale(0%)
+}
 
-.background {
-  width: 100%;
-  height: 60px;
+
+.background-skill {
   background-color: #F5F5F5;
   background-blend-mode: luminosity;
   backdrop-filter: blur(81.5485px);
@@ -10608,10 +10648,12 @@ section {
   filter: grayscale(100%);
   transition: 0.3s ease-in;
 }
+
 .image-dock-skills-1:hover {
   transform: translateY(-50%);
   filter: grayscale(0%)
 }
+
 .footer {
   padding: 5rem 0;
 }
