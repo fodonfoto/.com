@@ -10595,8 +10595,22 @@ section {
 /* } */
 
 
-.g-0 {
-  gap: 0px 0px;
+.background {
+  width: 100%;
+  height: 60px;
+  background-color: #F5F5F5;
+  background-blend-mode: luminosity;
+  backdrop-filter: blur(81.5485px);
+  border-radius: 20px;
+}
+.image-dock-skills-1 {
+  transform: translateY(-45%);
+  filter: grayscale(100%);
+  transition: 0.3s ease-in;
+}
+.image-dock-skills-1:hover {
+  transform: translateY(-50%);
+  filter: grayscale(0%)
 }
 .footer {
   padding: 5rem 0;
