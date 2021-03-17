@@ -558,12 +558,20 @@ pre code {
     width: 100%;
     height: 20px;
   }
+
+  .image-dock-skills-1 {
+    transform: translateY(-45%);
+  }
 }
 
 @media (min-width: 480px) {
   .background-skill {
     width: 100%;
     height: 30px;
+  }
+
+  .image-dock-skills-1 {
+    transform: translateY(-45%);
   }
 }
 
@@ -582,6 +590,10 @@ pre code {
     width: 100%;
     height: 30px;
   }
+
+  .image-dock-skills-1 {
+    transform: translateY(-45%);
+  }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
@@ -596,6 +608,10 @@ pre code {
     width: 100%;
     height: 40px;
   }
+
+  .image-dock-skills-1 {
+    transform: translateY(-45%);
+  }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
@@ -606,6 +622,17 @@ pre code {
     width: 100%;
     height: 60px;
   }
+
+  .image-dock-skills-1 {
+    transform: translateY(-45%);
+    filter: grayscale(100%);
+    transition: 0.3s ease-in;
+  }
+  
+  .image-dock-skills-1:hover {
+    transform: translateY(-50%);
+    filter: grayscale(0%);
+  }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
@@ -615,6 +642,17 @@ pre code {
   .background-skill {
     width: 100%;
     height: 60px;
+  }
+
+  .image-dock-skills-1 {
+    transform: translateY(-45%);
+    filter: grayscale(100%);
+    transition: 0.3s ease-in;
+  }
+  
+  .image-dock-skills-1:hover {
+    transform: translateY(-50%);
+    filter: grayscale(0%);
   }
 }
 .row {
@@ -10628,30 +10666,11 @@ section {
   z-index: 100; */
 /* } */
 
-/* ///// UXUI SECTION//// */
-.img-furniture1-app {
-  filter: grayscale(100%);
-}
-.img-furniture1-app:hover {
-  filter: grayscale(0%)
-}
-
-
 .background-skill {
   background-color: #F5F5F5;
   background-blend-mode: luminosity;
   backdrop-filter: blur(81.5485px);
   border-radius: 20px;
-}
-.image-dock-skills-1 {
-  transform: translateY(-45%);
-  filter: grayscale(100%);
-  transition: 0.3s ease-in;
-}
-
-.image-dock-skills-1:hover {
-  transform: translateY(-50%);
-  filter: grayscale(0%)
 }
 
 .footer {
