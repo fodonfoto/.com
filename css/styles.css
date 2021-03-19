@@ -564,12 +564,6 @@ pre code {
   }
 }
 
-@media (max-width: 375px) {
-  .prototype-fungjai {
-    display: none;
-  }
-}
-
 @media (min-width: 480px) {
   .background-skill {
     width: 100%;
@@ -601,6 +595,7 @@ pre code {
     transform: translateY(-45%);
   }
 }
+
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
@@ -10652,12 +10647,20 @@ section {
   line-height: 30px;
 }
 
+@media (max-width: 576px) {
+  iframe .prototype-fungjai {
+    display: none;
+  }
+}
+
 .prototype-fungjai {
   border-radius: 10px;
   margin: 0 auto;
   /* display: flex;
   justify-content: center; */
 }
+
+
 /* #loading {
   width: 100%;
   height: 100%;
