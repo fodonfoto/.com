@@ -640,6 +640,10 @@ pre code {
   .sec-proto {
     display: none;
   }
+
+  .sec-proto-jq {
+    display: none;
+  }
 }
 
 @media (min-width: 1200px) {
