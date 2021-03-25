@@ -10633,6 +10633,16 @@ section {
   margin-bottom: -1rem;
 }
 
+.bg-usertest {
+  background-color: #2E83FF;
+  border-bottom: 1px dashed #fff;
+}
+
+.text-heading-usertest {
+  font-size: 2rem;
+  color: #fff;
+}
+
 .title-concept {
   padding-top: 1rem;
   padding-left: 1rem;
