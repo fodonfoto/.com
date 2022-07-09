@@ -4563,6 +4563,23 @@ input[type=button].btn-block {
   border-top: 0;
 }
 
+.card-product {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-product:hover {
+  background-color: #fff;
+  opacity: 50%;
+}
+
 .card-body {
   flex: 1 1 auto;
   min-height: 1px;
@@ -4651,23 +4668,6 @@ input[type=button].btn-block {
 
 .card-deck .card {
   margin-bottom: 0.75rem;
-}
-
-.card-product {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
-}
-
-.card-product:hover {
-  background-color: #fff;
-  opacity: 50%;
 }
 
 @media (min-width: 576px) {
@@ -10493,9 +10493,10 @@ section {
   margin-bottom: 5rem;
 }
 
-.projects-section {
+/* .projects-section {
   padding-top 10rem;
-}
+} */
+
 .projects-section .featured-text {
   padding: 2rem;
 }
@@ -10573,7 +10574,7 @@ section {
   border-width: 0.25rem;
   width: 3rem;
 }
-..contact-section .social {
+.contact-section .social {
   margin-top: 5rem;
 }
 .contact-section .social a {
