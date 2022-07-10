@@ -545,6 +545,10 @@ pre code {
   overflow-y: scroll;
 }
 
+.link-figma {
+  color: #FBD600;
+}
+
 .container,
 .container-fluid,
 .container-xl,
@@ -10403,11 +10407,24 @@ body, html {
 }
 .masthead-prototype-figma {
   position: relative;
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
   min-height: 40rem;
   padding: 15rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("https://i.postimg.cc/ydTRW5yG/Cover-Prototype-Create.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead-idc-app {
+  position: relative;
+  /* width: 100%; */
+  height: 100%;
+  min-height: 40rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("https://i.postimg.cc/7LTQTRwH/Cover-page-idc.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10702,8 +10719,8 @@ section {
   text-align: center;
 }
 .feature1 {
-  padding-left: 3rem;
-  padding-right: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   font-family: sarabun;
   font-size: 15px;
   line-height: 30px;
