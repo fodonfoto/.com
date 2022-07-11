@@ -10457,6 +10457,97 @@ body, html {
   background-size: cover;
 }
 
+.masthead-serazu-app {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 40rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("https://i.postimg.cc/Jhyy2CKj/cover-port-serazu-app.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead-web-serazu {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 40rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("https://i.postimg.cc/FFDX6dqX/cover-port-web-serazu.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead-kkp-app {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 40rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("https://i.postimg.cc/QMTW4rxv/Cover-Port-CI-Phatra-EDGE.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead-wishop-app {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 40rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("https://i.postimg.cc/SQ6QZxLW/cover-port-wishop-app.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead-web-merchant {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 40rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("https://i.postimg.cc/rFbVhnZr/cover-port-webmerchant.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead-merchant-app {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 40rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("https://i.postimg.cc/PqLvNvLg/cover-port-wipaymerchant-app.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead-web-wipay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 40rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("https://i.postimg.cc/wMSF1YFz/cover-port-webwipay.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 @keyframes yourAnimation2{
   0%{
       transform: scale(0) translateY(-50px);
