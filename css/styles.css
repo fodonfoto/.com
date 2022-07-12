@@ -549,6 +549,7 @@ pre code {
   color: #FBD600;
 }
 
+
 .container,
 .container-fluid,
 .container-xl,
@@ -2075,6 +2076,36 @@ pre code {
   .table-responsive-xl > .table-bordered {
     border: 0;
   }
+
+  .main-mock6:hover {
+    transform: translateY(-2%);
+    transition: 0.3s ease-in-out;
+  }
+
+  .main-mock5:hover {
+    transform: translateY(-2%);
+    transition: 0.3s ease-in-out;
+  }
+
+  .main-mock4:hover {
+    transform: translateY(-2%);
+    transition: 0.3s ease-in-out;
+  }
+
+  .main-mock3:hover {
+    transform: translateY(-2%);
+    transition: 0.3s ease-in-out;
+  }
+
+  .main-mock2:hover {
+    transform: translateY(-2%);
+    transition: 0.3s ease-in-out;
+  }
+  
+  .main-mock1:hover {
+    transform: translateY(-2%);
+    transition: 0.3s ease-in-out;
+  }
 }
 .table-responsive {
   display: block;
@@ -3257,6 +3288,71 @@ input[type=button].btn-block {
   .dropdown-menu-xl-right {
     right: 0;
     left: auto;
+  }
+  .main-mock6 {
+    transform: translateY(0%);
+    filter: grayscale(100%);
+    transition: 0.3s ease-in-out;
+  }
+  
+  .main-mock6:hover {
+    transform: translateY(-2%);
+    filter: grayscale(0%);
+  }
+  
+  .main-mock5 {
+    transform: translateY(0%);
+    filter: grayscale(100%);
+    transition: 0.3s ease-in-out;
+  }
+  
+  .main-mock5:hover {
+    transform: translateY(-2%);
+    filter: grayscale(0%);
+  }
+  
+  .main-mock4 {
+    transform: translateY(0%);
+    filter: grayscale(100%);
+    transition: 0.3s ease-in-out;
+  }
+  
+  .main-mock4:hover {
+    transform: translateY(-2%);
+    filter: grayscale(0%);
+  }
+  
+  .main-mock3 {
+    transform: translateY(0%);
+    filter: grayscale(100%);
+    transition: 0.3s ease-in-out;
+  }
+  
+  .main-mock3:hover {
+    transform: translateY(-2%);
+    filter: grayscale(0%);
+  }
+  
+  .main-mock2 {
+    transform: translateY(0%);
+    filter: grayscale(100%);
+    transition: 0.3s ease-in-out;
+  }
+  
+  .main-mock2:hover {
+    transform: translateY(-2%);
+    filter: grayscale(0%);
+  }
+  
+  .main-mock1 {
+    transform: translateY(0%);
+    filter: grayscale(100%);
+    transition: 0.3s ease-in-out;
+  }
+  
+  .main-mock1:hover {
+    transform: translateY(-2%);
+    filter: grayscale(0%);
   }
 }
 .dropup .dropdown-menu {
