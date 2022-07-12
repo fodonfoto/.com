@@ -549,6 +549,9 @@ pre code {
   color: #FBD600;
 }
 
+.des-wi {
+  line-height: 2rem;
+}
 
 .container,
 .container-fluid,
